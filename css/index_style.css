@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato',sans-sharif;
+  color: #505962;
+  background-attachment:fixed; 
+  background-position: center;
+  background-size: cover; 
+  background-image: url(../DATABASE/img/aust.jpg);
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing:.1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover {
+  color:#1ebba3;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.heading-panel{
+  width:100%;
+  max-width:100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform:uppercase;
+}
+.heading-panel h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius:0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem; 
+}
+
+footer{
+  padding-top: 1rem;
+  background-color:#404041;
+  color:white;
+  padding-bottom:1.5rem;
+  
+}
+footer img{
+  height: 2rem;
+  margin:.5rem 0;
+}
+hr{
+  width: 100%;
+  border-top:.2rem solid #666b71;
+
+}
+@media (max-width: 767px){
+  .heading-panel h1{
+  font-size: 2.3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+}
+.btn-lg{
+  padding: .5rem 1rem;
+  font-size: 1rem; 
+}
+}
+@media (max-width:1300px){
+  .animation{
+ animation: none !important;
+}
+}
+.animation{
+  animation: text 3s 1;
+
+}
+@keyframes text{
+  0%{
+    color: black;
+    margin-bottom: -10px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -10px;
+  }
+  85%{
+    letter-spacing:8px;
+    margin-bottom: -10px;
+
+  }
+}

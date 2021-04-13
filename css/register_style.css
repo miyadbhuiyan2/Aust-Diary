@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body{
+	font-family: 'Lato',sans-sharif;
+	background-attachment:fixed; 
+	background-position: center;
+	background-size: cover; 
+	background-image: url(../DATABASE/img/register1.jpg);
+	overflow-x: hidden;
+}
+/*---Navigation--*/
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;	
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing:.1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover {
+  color:#1ebba3;
+}
+.registerdiv{
+	background-color:#333333;
+	padding: 30px; 
+	margin-top: 100px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.registerdiv h1{
+	color:#ffffff;
+	text-shadow: .1rem .1rem .8rem green;
+}
+.registerdiv label{
+	color:#ffffff;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+.spacing{
+	margin-bottom: 10px;
+	margin-top:10px;
+	
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+	outline: 5px solid green;
+}
+.form-group input[type="file"]{
+	color: white;
+}
+textarea{
+width: 100%;
+}
+footer{
+	background-color: #333333;
+	color: white;
+	padding: 0rem 0 3rem;
+	margin-top: 1rem;
+	opacity: 0.8;
+}
+hr{
+	border-top: .2rem solid #666b71;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+@media (max-width:991px){ 
+.col_spacing{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.spacing{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+}

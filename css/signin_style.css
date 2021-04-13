@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body {
+	font-family: 'Lato',sans-sharif;
+	background: url(../DATABASE/img/login.jpg);
+	background-attachment:fixed; 
+	background-position: center;
+	background-size: cover;
+	overflow-x:hidden;  	
+}
+.home{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 115px;
+}
+.navbar{
+position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;		
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing:.1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover {
+  color:#1ebba3;
+}
+.active{
+	 color:#1ebba3;
+}
+.signindiv{
+	background-color:#333333;
+	padding: 30px; 
+	margin-top: 180px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.signindiv h1{
+	margin-bottom: 35px;
+	color:#fff;
+	text-shadow: .1rem .1rem .8rem green;
+}
+.spacing{
+	margin-bottom: 10px;
+	margin-top:10px;
+	
+}
+.form-group input[type="password"]:focus,
+.form-group input[type="email"]:focus{
+	outline: 5px solid green;
+}
+.form-group input{
+	height: 42px;
+	border-radius: 5px;
+	border:0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 54px;
+
+}
+.inputmail::before {
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f1fa";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.inputpass::before {
+	font-family: 'Font Awesome\ 5 Free';
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+	content: "\f084";
+
+}
+.user-img img{
+	height: 120px;
+	width: 120px;
+}
+.user-img{
+	margin-top: -90px;
+}
+.forgot{
+	padding: 5px 0 1px;
+}
+#forgotlink{
+	cursor: pointer;
+}
+.btn{
+	width: 50%;
+	margin: 5px 0 25px;
+	background-color: #2b292a;
+	color: white;
+	font-size: 19px;
+	font-weight: 600;
+	border:2px solid white;
+	padding: 7px 14px;  
+}
+.btn:hover{
+	background-color: #1ebba3;
+	color: white;
+}
+.visibility{
+	display: none;
+}
+footer{
+	background-color: #333333;
+	color: white;
+	padding: 0rem 0 3rem;
+	margin-top: 1rem;
+		opacity: 0.8;
+}
+hr{
+	border-top: .2rem solid #666b71;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}

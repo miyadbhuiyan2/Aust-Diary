@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato',sans-sharif;
+  color: #505962;
+}
+.navbar{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;	
+  font-weight:700;
+  font-size: .9rem;
+  letter-spacing:.1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover {
+  color:#1ebba3;
+}
+.carousel-item{
+	height: 100vh;
+	background-size: cover; 
+}
+.image-slide{
+	height: 100%;
+	width: 100%;
+}
+.description{
+	font-size: 1.3rem;
+}
+h3{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+}
+h1{
+	padding-top: 2rem;
+}
+.header-underline{
+	width: 3rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: 0 auto 2rem;
+}
+.member{
+	margin: 0;
+	padding-top: 3rem;
+	background-color: #e9ecef;
+
+}
+.member img{
+	max-width: 100%;
+}
+.developer{
+	padding-top: 3rem;
+}
+.card{
+	margin-top: 0.8rem;
+	margin-bottom: 2rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+footer{
+	background-color: #404041;
+	color: white;
+	padding: 0rem 0 3rem;
+	margin-top: 1rem;
+}
+hr{
+	border-top: .2rem solid #666b71;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
